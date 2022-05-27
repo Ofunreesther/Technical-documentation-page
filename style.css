@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-emphasis: none;
+line-height: 1.5;
+}
+
+#navbar{
+    display: flex;
+   flex-direction: column;
+   width : 40vw;
+   margin-right :10vw;
+    max-height: 100px;
+}
+
+h2 {
+    text-align: center;
+    background-color: darkgray;
+
+}
+nav  {
+position: relative;
+top: 0;
+width: 100%;
+top: 0;
+bottom: 0;
+
+}
+
+#navbar li{
+    float: left;
+    position: relative;
+    line-height: normal;
+    width: 100%;
+    
+}
+#navbar a {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0.5em;
+    font-size: 20px;
+    display: block;
+    color: black;
+    border-right: column;
+}
+
+#navbar ul li{
+    padding: 0px 2px;
+    list-style: none;
+     border-right: solid;
+    margin: 2px;
+}
+
+#main-doc header {
+font-size: large;
+font-weight: 800;
+font-style: oblique;
+}
+
+code {
+background-color: hsl(0, 5%, 79%);
+display: block;
+margin: 5px;
+border-radius: 4px;
+font-size: larger;
+}
+@media only screen and ( min-width: 800px) {
+/* for mobile phone: */
+  }
+    
